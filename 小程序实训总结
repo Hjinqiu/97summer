@@ -1,0 +1,57 @@
+#微信小程序项目总结
+
+---
+
+> * 笑话大全
+
+##准备工作
+
+---
+
+> * 申请账号 https://developers.weixin.qq.com/miniprogram/dev/quickstart/basic/getting-started.html
+> * 登录（https://mp.weixin.qq.com）获得Appid
+> * 安装微信web开发者工具：
+https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html?t=2018724
+
+##新建项目
+
+---
+
+1.新建一个空文件夹，并命名。
+2.填写你的Appid或者点击使用测试版。
+3.点击确认即可创建。
+
+##笑话大全
+
+---
+
+这是一个采用聚合数据的免费API获取最新的文本笑话和趣图（图片和GIF图）的小程序。
+**下载地址**：https://github.com/zhijieeeeee/wechat-app-joke
+
+> * 注意要有GitHub账号，如果没有可以注册一个，非常实用。
+
+**1.下载方式**：
+
+1.直接点击Download ZIP
+
+2.如果安装有git的话，可以到指定的文件夹，右键鼠标，git bash here ,输入：$ git clone 仓库地址
+
+**导入项目**：
+选择目录：下载好的项目存放的目录，其他步骤同新建项目的第二、第三步一样。
+
+**需要注意**：由于该项目是一年前的项目，该作者使用的易源接口已经失效了。如果直接导入会出现以下画面：
+
+1.**不在** request **合法域名**内：
+
+这时候你可以通过点击右上角的详情--->**最低端的不校验合法域名的选项**。
+
+或者登陆小程序管理平台，在菜单“设置”-“开发设置”页面中的服务器域名上**添加**不在 request 合法域名内的域名。
+
+> * 如果使用的是本地测试的话，未填写Appid的，不会出现这种情况。
+
+##更多资料请参考
+
+---
+
+> * 官方文档
+> * GitHub
